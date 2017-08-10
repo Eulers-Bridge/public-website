@@ -97,7 +97,13 @@
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: center center;
+		-webkit-transform: translate3d(0,0,0) scale(1.1);
+		-moz-transform: translate3d(0,0,0) scale(1.1);
+		-o-transform: translate3d(0,0,0) scale(1.1);
 		transform: translate3d(0,0,0) scale(1.1);
+		-webkit-filter: blur(6px);
+		-moz-filter: blur(6px);
+		-o-filter: blur(6px);
 		filter: blur(6px);
 		z-index: 1;
 	}
@@ -126,6 +132,9 @@
 	header button {
 		background-color: rgba(37,27,37,0.5);
 		-webkit-backdrop-filter: saturate(300%) brightness(100%) blur(20px);
+		-moz-backdrop-filter: saturate(300%) brightness(100%) blur(20px);
+		-o-backdrop-filter: saturate(300%) brightness(100%) blur(20px);
+		backdrop-filter: saturate(300%) brightness(100%) blur(20px);
 	}
 	
 	
@@ -218,6 +227,9 @@
 		padding-bottom: 8px;
 		margin-right: 16px;
 		-webkit-backdrop-filter: saturate(300%) brightness(75%) blur(20px);
+		-moz-backdrop-filter: saturate(300%) brightness(75%) blur(20px);
+		-o-backdrop-filter: saturate(300%) brightness(75%) blur(20px);
+		backdrop-filter: saturate(300%) brightness(75%) blur(20px);
 	}
 	
 	/* White page template below. */
